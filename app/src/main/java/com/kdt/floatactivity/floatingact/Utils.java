@@ -1,4 +1,4 @@
-package com.kdt.crackactivity.floatingact;
+package com.kdt.floatactivity.floatingact;
 
 import android.app.*;
 import android.content.pm.*;

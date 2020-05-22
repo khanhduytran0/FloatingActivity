@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.kdt.crackactivity" >
+    package="com.kdt.floatactivity" >
 	<uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
     <application
         android:allowBackup="true"
@@ -22,7 +22,7 @@
             android:name=".TestActivity"
             android:label="Test" />
         <service
-            android:name="com.kdt.crackactivity.floatingact.FloatingActivityService"
+            android:name="com.kdt.floatactivity.floatingact.FloatingActivityService"
             android:enabled="true"
             android:exported="false" />
     </application>

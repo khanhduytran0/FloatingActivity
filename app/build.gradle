@@ -5,7 +5,7 @@ android {
     buildToolsVersion "21.1.0"
 
     defaultConfig {
-        applicationId "com.kdt.crackactivity"
+        applicationId "com.kdt.floatactivity"
         minSdkVersion 14
         targetSdkVersion 21
         versionCode 1

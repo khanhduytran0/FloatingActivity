@@ -6,7 +6,7 @@
 	android:orientation="vertical">
 
 	<TextView
-		android:text="ActivityCracker, made by Tran Khanh Duy."
+		android:text="FloatingActivity, made by Tran Khanh Duy."
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:textAppearance="?android:attr/textAppearanceMedium"/>
@@ -14,7 +14,7 @@
 	<TextView
 		android:layout_height="wrap_content"
 		android:layout_width="wrap_content"
-		android:text="This app demonstrate an usage of Internal API that allow you to start an activity in floating mode without Android 7.0 or above."/>
+		android:text="This app demonstrate an usage of Internal API that allow you to start an activity in floating mode."/>
 
 	<Button
 		android:layout_height="wrap_content"

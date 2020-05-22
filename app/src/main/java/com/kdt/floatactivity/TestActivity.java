@@ -1,4 +1,4 @@
-package com.kdt.crackactivity;
+package com.kdt.floatactivity;
 
 import android.app.*;
 import android.os.*;

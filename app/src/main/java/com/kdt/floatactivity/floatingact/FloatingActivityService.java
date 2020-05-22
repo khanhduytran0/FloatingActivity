@@ -1,4 +1,4 @@
-package com.kdt.crackactivity.floatingact;
+package com.kdt.floatactivity.floatingact;
 
 import android.app.*;
 import android.content.*;
@@ -11,7 +11,7 @@ import android.view.*;
 import android.widget.*;
 import com.android.internal.app.*;
 import com.android.server.am.*;
-import com.kdt.crackactivity.*;
+import com.kdt.floatactivity.*;
 import java.lang.reflect.*;
 import java.util.*;
 
