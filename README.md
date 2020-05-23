@@ -9,6 +9,16 @@ This library demonstrate an usage of Internal API that allow you to start an act
 - This library using Internal API which requires a special Android SDK to build.
 - This don't need a rooted device.
 
+## Using this library
+```java
+import com.kdt.floatactivity.floatingact.FloatingIntent;
+
+
+// Create a floating activity intent
+FloatingIntent i = new FloatingIntent(MainActivity.this, FloatActivity.class);
+i.startFloatingActivity();
+```
+
 ## Current status
 - This project including demo activity which not splited into test and library module.
 - `Window` views are not packaged into one single `Layout` class.
