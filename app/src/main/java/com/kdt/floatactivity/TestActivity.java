@@ -5,6 +5,7 @@ import android.os.*;
 import android.widget.*;
 import android.view.View.*;
 import android.view.*;
+import android.view.inputmethod.*;
 
 public class TestActivity extends Activity
 {
@@ -16,14 +17,14 @@ public class TestActivity extends Activity
 		l.setOrientation(l.VERTICAL);
 		
 		EditText e = new EditText(this);
+		e.setImeOptions(EditorInfo.IME_FLAG_NO_EXTRACT_UI);
 		e.setSingleLine(false);
 		l.addView(e);
 		
-		/*
 		TextView t = new TextView(this);
 		t.setText("Some features may not work correctly:\n" +
 			" - Show an AlertDialog cause crash.\n" +
-			" - SurfaceView don't hide when minimize.");
+			" - SurfaceView still visible while minimize.");
 			
 		Button b = new Button(this);
 		b.setText("Try");
@@ -42,7 +43,6 @@ public class TestActivity extends Activity
 		
 		l.addView(t);
 		l.addView(b);
-		*/
 		
 		setContentView(l);
 	}
