@@ -18,6 +18,7 @@ import com.kdt.floatactivity.floatingact.FloatingIntent;
 FloatingIntent i = new FloatingIntent(MainActivity.this, FloatActivity.class);
 i.startFloatingActivity();
 ```
+**Change `FloatActivity.class` with your Activity want to make floating.**
 
 ## Current status
 - This project including demo activity which not splited into test and library module.
