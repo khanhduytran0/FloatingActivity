@@ -12,9 +12,12 @@ This library demonstrate an usage of Internal API that allow you to start an act
 ## Current status
 - This project including demo activity which not splited into test and library module.
 - `Window` views are not packaged into one single `Layout` class.
-- `SurfaceView` is not being hidden on minimize mode.
 - OpenGL rendering inside floating window is not yet tested.
 - Resizing is not yet added.
+
+## Known issues
+- `EditText` outside window can't be input while window is showing.
+- `SurfaceView` is not being hidden on minimize mode.
 
 ## License
 - This library is licensed with Apache License v2.0.
