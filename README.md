@@ -26,9 +26,13 @@ i.startFloatingActivity();
 - OpenGL rendering inside floating window is not yet tested.
 - Resizing is not yet added.
 
-## Known issues
+## Limitations
 - `EditText` outside window can't be input while window is showing.
 - `SurfaceView` is not being hidden on minimize mode.
+- Can't show a dialog inside floating window.
+
+## Change in the future
+- Use `android.app.ActivityView` which also a hidden API.
 
 ## License
 - This library is licensed with Apache License v2.0.
