@@ -27,9 +27,10 @@ i.startFloatingActivity();
 - Resizing is not yet added.
 
 ## Limitations
+- The target floating activity must be declared in manifest but if someone do some tricks then declaration is not required.
+- Showing a dialog inside floating window cause application to crash.
 - `EditText` outside window can't be input while window is showing.
 - `SurfaceView` is not being hidden on minimize mode.
-- Can't show a dialog inside floating window.
 
 ## Change in the future
 - Use `android.app.ActivityView` which also a hidden API.
