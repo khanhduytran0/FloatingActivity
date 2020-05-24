@@ -5,6 +5,7 @@ This library demonstrate an usage of Internal API that allow you to start an act
 
 ## About this library
 - It's simple, under 200kB APK for not using any Support Libraries or AndroidX.
+- It works on Android 5 and above. Some changes may make it work on older Android.
 - This put a real `Activity` to floating window running inside Service.
 - This library using Internal API which requires a special Android SDK to build.
 - This don't need a rooted device.
